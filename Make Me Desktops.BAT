@@ -15,8 +15,6 @@ echo %RED% ╚════██║██║██║╚██╗██║██
 echo %RED% ███████║██║██║ ╚████║██║  ██║%BLUE%███████║██║  ██║███████╗██║██║ ╚═╝ ██║██║██║     ╚██████╔╝██║  ██║%RESET%
 echo %RED% ╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝%BLUE%╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝%RESET%
 
-
-
 :: Create a new desktop and name it 'MAIN'
 powershell -Command "New-Desktop | Set-DesktopName -Name 'MAIN'"
 
@@ -29,18 +27,4 @@ powershell -Command "New-Desktop | Set-DesktopName -Name 'VM'"
 :: Create a new desktop and name it 'BACKGROUND'
 powershell -Command "New-Desktop | Set-DesktopName -Name 'BACKGROUND'"
 
-
-                              
-pause    
-
-
-
-
-
-
-
-
-
-
-
-pause >nul
+pause
