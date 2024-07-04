@@ -1,1 +1,2 @@
-1
+startup-cmd
+for my windows pcs
